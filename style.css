@@ -1,0 +1,76 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    width:25%;
+    height:80%;
+    text-align: center;
+    margin:auto;
+}
+.container .rates{
+    font-size: 18px;
+}
+
+.profile img{
+    width:140px;
+    height:140px;
+    border-radius: 50%;
+}
+.profile .name{
+    font-weight: bold;
+    font-size:20px;
+}
+.profile .role{
+    font-size: 16px;
+    color: gray;
+}
+.profile .jobTitle{
+    color: mediumseagreen;
+    font-weight: 600;
+    align-items: end;
+    display: inline-flex;
+    gap: 4px;
+    margin: 0;
+}
+.skills ul{
+    display: flex;
+    gap:6px;
+    margin-top:6px;
+    margin-bottom: 12px;
+    padding-inline-start: 0;
+}
+.skills ul li{
+    list-style: none;
+    border: 1px solid rgb(0, 116, 184);
+    background: #eee;
+    border-radius: 14px;
+    padding: 3px 6px;
+}
+.skills ul .moreSkills{
+    background: rgb(0, 116, 184);
+    color: white;
+}
+.description {
+    font-size: 16px;
+    color: rgb(75, 75, 75);
+}
+.container button{
+    margin-bottom: 10px;
+    padding:7px 14px;
+    border: 1px solid rgb(0, 116, 184);
+    background-color: rgb(0, 116, 184);
+    border-radius: 18px;
+    color:white;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.container button:hover{
+    background-color: #fff;
+    color: rgb(0, 116, 184);
+    transform: scale(0.98);
+}
